@@ -2,7 +2,7 @@ name: Esporta PDF
 on:
   push:
     branches:
-      - main
+      - nightlys
   pull_request_target:
     types:
       - closed
