@@ -26,7 +26,7 @@ jobs:
         uses: "marvinpinto/action-automatic-releases@latest"
         with:
           repo_token: "${{ secrets.GITHUB_TOKEN }}"
-          automatic_release_tag: "nightly"
+          automatic_release_tag: "nightly-to-see-newly-generated-changelog"
           prerelease: true
-          title: "Nightly Release"
+          title: "Nightly Release To See Newly Generated Changelog"
           files: cheatsheet.pdf
